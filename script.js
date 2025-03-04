@@ -1,6 +1,6 @@
 
 
-import weatherKey from "./creds.js";
+
 
 const App = {
 
@@ -26,7 +26,7 @@ const App = {
 
         cityName: document.querySelector("#city-name"),
 
-        apiKey: weatherKey,
+        apiKey: "ef4e47f45cd622e4387db0795554b15a",
 
         currentDT: "",
     },
