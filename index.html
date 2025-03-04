@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header class="header search-mode">
+      <img class="search-reset" src="icons/arrow-left-solid.svg" alt="" />
+      <h1 id="city-name"></h1>
+      <div class="header-container">
+        <div class="header-left">
+          <img id="current-weather" class="icon large" src="" alt="" />
+          <div class="header-current-temp">
+            <span id="current-temp"></span>&deg;F
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="info-group">
+            <div class="label">HIGH</div>
+            <div><span id="current-high"></span>&deg;F</div>
+          </div>
+          
+          <div class="info-group">
+            <div class="label">LOW</div>
+            <div><span id="current-low"></span>&deg;F</div>
+          </div>
+          
+          <div class="info-group">
+            <div class="label">FL TEMP</div>
+            <div><span id="current-fl-temp"></span>&deg;F</div>
+          </div>
+          
+          <div class="info-group">
+            <div class="label">Humidity</div>
+            <div><span id="current-humidity"></span>%</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="bg"></div>
+    
+    <div class="input-group search-mode">
+      <input
+      id="search-bar"
+      type="text"
+      placeholder="Enter a City"
+        maxlength="40"
+      />
+      <button id="search-btn">Search</button>
+    </div>
+
+    <article class="week-container search-mode">
+      <div id="forecast-1" class="day-box">
+        <div class="hour-box"><h2></h2></div>
+        <img class="icon" src="" alt="" />
+        <div class="info-group">
+          <div class="label">TEMP</div>
+          <div><span class="forecast-temp"></span>&deg;</div>
+        </div>
+      </div>
+      <div id="forecast-2" class="day-box">
+        <div class="hour-box"><h2></h2></div>
+        <img class="icon" src="" alt="" />
+        <div class="info-group">
+          <div class="label">TEMP</div>
+          <div><span class="forecast-temp"></span>&deg;</div>
+        </div>
+      </div>
+      <div id="forecast-3" class="day-box">
+        <div class="hour-box"><h2></h2></div>
+        <img class="icon" src="" alt="" />
+        <div class="info-group">
+          <div class="label">TEMP</div>
+          <div><span class="forecast-temp"></span>&deg;</div>
+        </div>
+      </div>
+      <div id="forecast-4" class="day-box">
+        <div class="hour-box"><h2></h2></div>
+        <img class="icon" src="" alt="" />
+        <div class="info-group">
+          <div class="label">TEMP</div>
+          <div><span class="forecast-temp"></span>&deg;</div>
+        </div>
+      </div>
+      <div id="forecast-5" class="day-box">
+        <div class="hour-box"><h2></h2></div>
+        <img class="icon" src="" alt="" />
+        <div class="info-group">
+          <div class="label">TEMP</div>
+          <div><span class="forecast-temp"></span>&deg;</div>
+        </div>
+      </div>
+      <div id="forecast-6" class="day-box">
+        <div class="hour-box"><h2></h2></div>
+        <img class="icon" src="" alt="" />
+        <div class="info-group">
+          <div class="label">TEMP</div>
+          <div><span class="forecast-temp"></span>&deg;</div>
+        </div>
+      </div>
+      <div id="forecast-7" class="day-box">
+        <div class="hour-box"><h2></h2></div>
+        <img class="icon" src="" alt="" />
+        <div class="info-group">
+          <div class="label">TEMP</div>
+          <div><span class="forecast-temp"></span>&deg;</div>
+        </div>
+      </div>
+      
+      </div>
+    </article>
+
+    <script type="module" src="script.js"></script>
+  
+  </body>
+</html>
